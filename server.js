@@ -6,6 +6,10 @@ app.get('/', (req, res) => {
   res.send("Hello Sarah");
 });
 
+app.get('/Hannah', (req, res) => {
+  res.send("Hello Hannah");
+});
+
 const port = 3000;
  
 app.listen(process.env.PORT || port, () => {
